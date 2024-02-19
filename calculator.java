@@ -1,4 +1,4 @@
-public class calculator {
+public class calculator extends ext_calculator {
     
     // Addition method
     public static float add(float num1, float num2) {
@@ -41,5 +41,7 @@ public class calculator {
         System.out.println("Subtraction: " + subtractionResult);
         System.out.println("Multiplication: " + multiplicationResult);
         System.out.println("Division: " + divisionResult);
+        System.out.println("Square : "+ square(operand1));
+        System.out.println("Cube: "+ cube(operand1));
     }
 }
